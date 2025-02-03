@@ -4,13 +4,16 @@
     "strict": true,
     "paths": {
       "@/*": ["./*"]
-    }
+    },
+    "typeRoots": ["./types"],
+    "jsx": "react-jsx"
   },
   "include": [
     "**/*.ts",
     "**/*.tsx",
     ".expo/types/**/*.ts",
     "expo-env.d.ts",
-    "eslint.config.mjs"
+    "eslint.config.mjs",
+    "types/**/*.d.ts"
   ]
 }
